@@ -33,6 +33,8 @@ public class Ogrenci {
        this.aktif=aktif;
     }
 
+
+
     public void yazdır() {
         if (aktif) {
             System.out.println("öğrencinin adı:" + name + "\nöğrencinin soyadı:" + surname + "\nnumarası:" + number + "\nsınıfı:" + classroom);
