@@ -1,8 +1,8 @@
 package Classes.PackageStatic.pack1;
 
 public class Banka1 {
-    String sube;
-    public String sehir;
+    String sube;  //DEFAULT
+    public String sehir; //PUBLİC
 
     static int count;
     public static String ulke;
