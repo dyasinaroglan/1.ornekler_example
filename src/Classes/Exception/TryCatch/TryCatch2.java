@@ -1,4 +1,4 @@
-package Classes.TryCatch;
+package Classes.Exception.TryCatch;
 
 public class TryCatch2 {
     public static void main(String[] args) {

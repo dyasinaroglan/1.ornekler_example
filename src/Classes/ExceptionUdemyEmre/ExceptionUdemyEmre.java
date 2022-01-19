@@ -1,4 +1,4 @@
-package Classes.Exception;
+package Classes.ExceptionUdemyEmre;
 
 public class ExceptionUdemyEmre {
 

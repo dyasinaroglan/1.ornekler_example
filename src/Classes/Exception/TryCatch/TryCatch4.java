@@ -1,4 +1,4 @@
-package Classes.TryCatch;
+package Classes.Exception.TryCatch;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Classes.TryCatch.ExceptionOrnekler;
+package Classes.Exception;
 
 import java.util.Scanner;
 
