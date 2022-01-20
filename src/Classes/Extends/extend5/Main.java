@@ -11,6 +11,8 @@ public class Main {
         System.out.println("main başladı");
         Classes.Extends.extend4.ChildClass c = new ChildClass();
         System.out.println("main bitti");
+
+      
     }
 }
 /*
