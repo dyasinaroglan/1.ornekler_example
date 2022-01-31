@@ -28,6 +28,10 @@ public class Main {
         System.out.println("******************");
         System.out.println(b1);
 
+        //encapsulation--> bir sınıfa ait veriables ların sadece o sınıfa ait methotlarla veya oluşturulan
+        //constructor içerisinde değiştirilmesi demektir.
+        //yanlış girmeyi önleme amacıyla koruma altına alıyoruz. private burada bize yardımcı oluyor.
+
 
     }
 }

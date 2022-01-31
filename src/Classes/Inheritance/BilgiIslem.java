@@ -8,4 +8,12 @@ public class BilgiIslem extends Memurlar{
         super(adSoyad, telefon, eposta, departmant, mesai);
         this.gorev = gorev;
     }
+
+    public String getGorev() {
+        return gorev;
+    }
+
+    public void setGorev(String gorev) {
+        this.gorev = gorev;
+    }
 }

@@ -6,9 +6,14 @@ public class Calısan {
     private String eposta;
     static int girisSayısı=0;
 
-    public void giris(){  //public yerine private yaparsam bu methodu. main de erişemem bu methoda. aynı class haricinde çağırılmaz private.
+
+
+    //protected yapsaydım değişkenleri extend olduğu için alt sınıflara sanki public gibi davranacak.
+
+    public void giris() {  //public yerine private yaparsam bu methodu. main de erişemem bu methoda. aynı class haricinde çağırılmaz private.
         //protected yaparsam erişirim.
         System.out.println(this.AdSoyad + " çalışan giriş yaptı");
+
     }
     public static int girisSayısı(){
         return ++Calısan.girisSayısı;
@@ -44,4 +49,18 @@ public class Calısan {
                 ", eposta='" + eposta + '\'' +
                 '}';
     }
-}
+
+    public void setAdSoyad(String adSoyad) {
+        AdSoyad = adSoyad;
+    }
+
+    public void setTelefon(int telefon) {
+        this.telefon = telefon;
+    }
+
+    public void setEposta(String eposta) {
+        this.eposta = eposta;
+    }
+
+    }
+

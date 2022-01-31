@@ -9,4 +9,22 @@ public class OgretimUyesi extends Akademisyen{
         this.unvan = unvan;
     }
 
+    public String getUnvan() {
+        return unvan;
+    }
+
+    public void setUnvan(String unvan) {
+        this.unvan = unvan;
+    }
+
+
+    public void derseGir(int dersSaati) {
+        System.out.println(getUnvan()+ " "+ getAdSoyad()+ " "+ dersSaati +" saat "+ getDersler()+ " dersine girdi.");
+
+    }
+
+    @Override
+    public void derseGir() {
+
+    }
 }

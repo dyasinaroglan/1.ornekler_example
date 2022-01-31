@@ -8,4 +8,12 @@ public class Guvenlık extends Memurlar{
         super(adSoyad, telefon, eposta, departmant, mesai);
         this.belge = belge;
     }
+
+    public String getBelge() {
+        return belge;
+    }
+
+    public void setBelge(String belge) {
+        this.belge = belge;
+    }
 }
