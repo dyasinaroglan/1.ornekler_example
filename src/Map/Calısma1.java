@@ -6,6 +6,9 @@ import java.util.Map;
 public class Calısma1 {
     public static void main(String[] args) {
 
+
+
+
         HashMap<String,Integer> ogrNotlar = new HashMap<>();
         //SOL ---> KEY  SAĞ--->VALUE denir
         ogrNotlar.put("yasin",90);
