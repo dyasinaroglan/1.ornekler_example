@@ -2,7 +2,7 @@ package Bolum3.Loops;
 
 import java.util.Scanner;
 
-public class doWhileLoop1 {
+public class DoWhileLoop1 {
     public static void main(String[] args) {
         /*
         Kullanicidan tam sayi girmesini isteyin. Bu sayilarin karekökünü
