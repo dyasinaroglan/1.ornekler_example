@@ -1,0 +1,11 @@
+MODİFİERS
+
+         Access modifiers  (ulaşılabilirlik)
+              private  -----> sadece class içinden ulaşılır
+              default,friendly -----> aynı paket içinden ulaşılır
+              protected ---->aynı paket + farklı paketteki child class lar
+              public ----> herkes ulaşır
+
+         Nonaccess modifiers
+              final,
+              static,

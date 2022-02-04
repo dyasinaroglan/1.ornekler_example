@@ -8,5 +8,11 @@ public class Main {
         Arac a2 = new Arac();
         a2.define("bmw",2015);
 
+        Arac a3 = new Arac();
+        a3.define("audi",2019);
+
+        a1.aracBılgısı();
+        a2.aracBılgısı();
+
     }
 }
