@@ -10,22 +10,22 @@ public class ArrayExample1 {
          */
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("kaç elemanlı bir dizi olsun");
-        int num =scanner.nextInt();
+        System.out.println("sayı giriniz");
+        int sayı = scanner.nextInt();
 
-        int[] array = new int[num];
+        int[] array = new int[sayı];
 
-
-
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < sayı; i++) {
             System.out.println("sayı giriniz");
-            array[i]=scanner.nextInt();              //bu kısımda array i yazdırıyoruz.
-        }
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+" ");
+            int num = scanner.nextInt();
+            array[i] = num;
 
         }
+        for (int i = 0; i < sayı; i++) {
+            System.out.print(array[i]+",");
+
         }
 
     }
+}
 
