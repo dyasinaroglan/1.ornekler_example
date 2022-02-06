@@ -2,7 +2,7 @@ package Bolum4.Arrays;
 
 import java.util.Scanner;
 
-public class Calısma1 {
+public class ArrayExample1 {
     public static void main(String[] args) {
          /*
         Kullanicidan bir sayi alarak bu sayi uzunlugunda int bir dizi olusturun.
