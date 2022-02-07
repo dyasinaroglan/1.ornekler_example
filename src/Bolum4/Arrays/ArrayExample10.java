@@ -1,29 +1,20 @@
 package Bolum4.Arrays;
 
-import java.util.Collections;
+import java.util.Scanner;
 
 public class ArrayExample10 {
     public static void main(String[] args) {
-        int[] arr = {2,67,-5,12,66};
-        sortBulma(arr);
-        for (int i : arr) {
-            System.out.print(i + " ");
+        //5 elemanlı bir diziye eleman olarak dizi indeksinin karesini atayan uygulama
 
-        }
+        Scanner scanner = new Scanner(System.in);
 
-    }
-    public static void sortBulma(int[] array){
+        int[] array = new int[10];
         for (int i = 1; i < array.length; i++) {
-            for (int j = 0; j < array.length-i; j++) {
-                if(array[j]>array[j+1]){
-                swap(array,j,j+1);  //yerlerini değiştir.
-                }
-            }
+           array[i] = (int) Math.pow(i,2);
         }
-    }
-    public static void swap(int[]array, int i, int j){
-        int temp =  array[i];
-        array[i] = array[j];
-        array[j] = temp;
+        for (int i = 1; i < array.length; i++) {
+            System.out.println("eleman : " + array[i]);
+            
+        }
     }
 }
