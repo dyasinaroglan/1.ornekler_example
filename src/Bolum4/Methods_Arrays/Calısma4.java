@@ -1,6 +1,4 @@
-package Methods_Arrays;
-
-import java.util.Scanner;
+package Bolum4.Methods_Arrays;
 
 public class Calısma4 {
     public static void main(String[] args) {

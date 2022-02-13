@@ -1,4 +1,4 @@
-package Methods_Arrays;
+package Bolum4.Methods_Arrays;
 
 public class Calısma10 {
     public static void main(String[] args) {

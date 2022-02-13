@@ -1,4 +1,4 @@
-package Methods.UdemyEmre;
+package Bolum4.Methods.UdemyEmre;
 
 import java.util.Scanner;
 

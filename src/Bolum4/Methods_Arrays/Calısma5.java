@@ -1,7 +1,6 @@
-package Methods_Arrays;
+package Bolum4.Methods_Arrays;
 
 import java.util.Arrays;
-import java.util.Locale;
 
 public class Calısma5 {
     public static void main(String[] args) {

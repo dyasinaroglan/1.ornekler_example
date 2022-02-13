@@ -1,4 +1,4 @@
-package Methods;
+package Bolum4.Methods;
 
 import java.util.Arrays;
 import java.util.Scanner;
