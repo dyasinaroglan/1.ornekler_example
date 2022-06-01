@@ -1,20 +1,18 @@
 package algoritma;
 
+import java.util.Scanner;
+
 public class _06Examp {
     public static void main(String[] args) {
 
-        //Bir dizide ki aynı elemanları temizleyerek Tekrarsız bir program yazınız.
-        //Örnek: "aaabbbccc" -> "abc"
-        //Örnek: "aaabbbccca" -> "abc"
-
-        String str = "aaabbbccc";
-        String newString = "";
-
-        for (int i = 0; i < str.length(); i++) {
-            if(!newString.contains(str.charAt(i)+ "")){
-                newString+= str.charAt(i);
-            }
+        //Write a program that finds factorial
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int number = scanner.nextInt();
+        int factorial = 1;
+        for (int i = 1; i <= number; i++) {
+            factorial *= i;
         }
-        System.out.println(newString);
+        System.out.println("Factorial of " + number + " is " + factorial);
     }
 }
